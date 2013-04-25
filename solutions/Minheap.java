@@ -1,20 +1,32 @@
 package heap;
 
-class Minheap
+class Heap
 {
 int[] heap;
-public Minheap()
+String type="min";
+public Heap()
 {
 heap=new int[20];
 }
 
-public Minheap(int n)
+public Heap(int n)
 {
 heap=new int[n];
+}
+public Heap(String type)
+{
+type=type;
+}
+
+public Heap(int n,String type)
+{
+heap=new int[n];
+type=type;
 }
 
 public void insert(int a)
 {
 
 }
+
 }
