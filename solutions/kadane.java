@@ -3,7 +3,7 @@ class kadane
 {
 public static void main(String args[])
 {
-int[] a={3,-2,1,4,-3,2};
+int[] a={3,-2,1,-4,3,2};
 int max_ending,max_so_far;
 max_ending=max_so_far=0;
 for(int i=0;i<a.length;i++)
