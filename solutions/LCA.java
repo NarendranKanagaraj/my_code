@@ -12,7 +12,7 @@ t.insert(3);
 t.insert(7);
 t.insert(9);
 t.display();
-treenode node=find_LCA(t.root,1,3);
+treenode node=find_LCA(t.root,1,2);
 System.out.println(node.data);
 }
 
